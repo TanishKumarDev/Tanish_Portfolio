@@ -1,4 +1,5 @@
 import {
+  Github,
   Instagram,
   Linkedin,
   Mail,
@@ -48,7 +49,7 @@ export const ContactSection = () => {
               Contact Information
             </h3>
 
-            <div className="space-y-6 justify-center">
+            <div className="space-y-6 justify-center text-left">
               <div className="flex items-start space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Mail className="h-6 w-6 text-primary" />{" "}
@@ -59,7 +60,7 @@ export const ContactSection = () => {
                     href="mailto:hello@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    hello@gmail.com
+                    tanish.kumar.contact@gmail.com
                   </a>
                 </div>
               </div>
@@ -73,7 +74,7 @@ export const ContactSection = () => {
                     href="tel:+11234567890"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    +1 (123) 456-7890
+                    +91 7428463263, 8860470979
                   </a>
                 </div>
               </div>
@@ -84,7 +85,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium"> Location</h4>
                   <a className="text-muted-foreground hover:text-primary transition-colors">
-                    Vancouver, BC, Canada
+                    New delhi, india
                   </a>
                 </div>
               </div>
@@ -93,18 +94,16 @@ export const ContactSection = () => {
             <div className="pt-8">
               <h4 className="font-medium mb-4"> Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
-                <a href="#" target="_blank">
+                <a href="linkedin.com/in/tanish29/" target="linkedin.com/in/tanish29/">
                   <Linkedin />
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://github.com/TanishKumarDev/TanishKumarDev" target="https://github.com/TanishKumarDev/TanishKumarDev">
+                  <Github />
+                </a>
+                <a href="https://x.com/tanish_29" target="https://x.com/tanish_29">
                   <Twitter />
                 </a>
-                <a href="#" target="_blank">
-                  <Instagram />
-                </a>
-                <a href="#" target="_blank">
-                  <Twitch />
-                </a>
+                
               </div>
             </div>
           </div>
@@ -130,7 +129,7 @@ export const ContactSection = () => {
                   name="name"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
-                  placeholder="Pedro Machado..."
+                  placeholder="Your Name Please..."
                 />
               </div>
 
@@ -148,7 +147,7 @@ export const ContactSection = () => {
                   name="email"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
-                  placeholder="john@gmail.com"
+                  placeholder="Your Email Please..."
                 />
               </div>
 
@@ -165,7 +164,8 @@ export const ContactSection = () => {
                   name="message"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary resize-none"
-                  placeholder="Hello, I'd like to talk about..."
+                  placeholder="Your Message Please..."
+                  // rows="4"
                 />
               </div>
 
