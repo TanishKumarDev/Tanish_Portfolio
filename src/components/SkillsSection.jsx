@@ -55,7 +55,7 @@ export const SkillsSection = () => {
               className="bg-card p-6 rounded-lg shadow-xs card-hover dark:bg-dark-600"
             >
               <div className="text-left mb-4">
-                <h3 className="font-semibold text-lg text-black">{skill.name}</h3>
+                <h3 className="font-semibold text-lg text-white">{skill.name}</h3>
               </div>
             </div>
           ))}

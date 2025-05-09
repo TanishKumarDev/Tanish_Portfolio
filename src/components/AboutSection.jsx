@@ -10,7 +10,7 @@ export const AboutSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-black tracking-tight">
+            <h1 className="text-4xl md:text-5xl font-bold text-white-900 dark:text-white tracking-tight">
               Tanish Kumar
             </h1>
 
