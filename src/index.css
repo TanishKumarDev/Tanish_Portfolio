@@ -1,4 +1,8 @@
 @import "tailwindcss";
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem; /* adjust based on navbar height */
+}
 
 @theme {
   --color-border: hsl(var(--border));
